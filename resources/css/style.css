@@ -1,18 +1,38 @@
 html {
     background-color: black;
     font-size: 10px;
-    font-family: Verdana;
-    text-align: center
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    color: white;
 }
 
 h1 {
 
     font-size: 5rem;
-    color: white;
+}
+
+h2 {
+    font-size: 4.2rem;
+    font-weight: 300;
 }
 
 a {
     color: aquamarine;
-    font-size: 1.6rem
-;
+    font-size: 1.6rem;
+}
+
+.image-container {
+    display: grid;
+    place-items: center;
+}
+
+img {
+    margin: 10px;
+    display: block;
+}
+
+.copyright {
+    font-size: 1.4rem;
+    color: gray;
+    text-align: right;
 }
